@@ -12,7 +12,7 @@ $(".saveBtn").on("click", function () {
     var time = $(this).parent().attr("id");
     // put them into localstorage
     
-    localStorage.setItem(text, time)
+    localStorage.setItem(time, text)
     console.log(text, time)
 })
 
